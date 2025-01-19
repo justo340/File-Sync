@@ -1,0 +1,409 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_DRIVE_FOLDER_ID",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER_PATHS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "check_mtp_connection",
+        "importPath": "mtp_sync_utils",
+        "description": "mtp_sync_utils",
+        "isExtraImport": true,
+        "detail": "mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_download_folder",
+        "importPath": "mtp_sync_utils",
+        "description": "mtp_sync_utils",
+        "isExtraImport": true,
+        "detail": "mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "download_files_from_phone",
+        "importPath": "mtp_sync_utils",
+        "description": "mtp_sync_utils",
+        "isExtraImport": true,
+        "detail": "mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_google_drive_to_local",
+        "importPath": "google_drive_utils",
+        "description": "google_drive_utils",
+        "isExtraImport": true,
+        "detail": "google_drive_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_local_to_google_drive",
+        "importPath": "google_drive_utils",
+        "description": "google_drive_utils",
+        "isExtraImport": true,
+        "detail": "google_drive_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_folders",
+        "importPath": "local_sync_utils",
+        "description": "local_sync_utils",
+        "isExtraImport": true,
+        "detail": "local_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_google_drive",
+        "importPath": "quickstart",
+        "description": "quickstart",
+        "isExtraImport": true,
+        "detail": "quickstart",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "importPath": "logging_utils",
+        "description": "logging_utils",
+        "isExtraImport": true,
+        "detail": "logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "importPath": "logging_utils",
+        "description": "logging_utils",
+        "isExtraImport": true,
+        "detail": "logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleAuth",
+        "importPath": "pydrive.auth",
+        "description": "pydrive.auth",
+        "isExtraImport": true,
+        "detail": "pydrive.auth",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleDrive",
+        "importPath": "pydrive.drive",
+        "description": "pydrive.drive",
+        "isExtraImport": true,
+        "detail": "pydrive.drive",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_google_drive",
+        "importPath": "src.google_drive_utils",
+        "description": "src.google_drive_utils",
+        "isExtraImport": true,
+        "detail": "src.google_drive_utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "sync_folders",
+        "importPath": "src.local_sync_utils",
+        "description": "src.local_sync_utils",
+        "isExtraImport": true,
+        "detail": "src.local_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER_PATHS",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "FOLDER_PATHS = {'laptop': '/home/justo/recover/testFolder', 'external_drive': '/media/justo/ED17-2296/recover/testFolder', 'phone': '/home/justo/phone/Downloads/testFolder', 'google_drive': '17tkkeHEdqeaU661-kfqEXnxTVdmlSMVf'}\nGOOGLE_DRIVE_FOLDER_ID = \"17tkkeHEdqeaU661-kfqEXnxTVdmlSMVf\"\nLOG_FILE = 'logs/sync.log'\nLOG_LEVEL = 'INFO'",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_DRIVE_FOLDER_ID",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "GOOGLE_DRIVE_FOLDER_ID = \"17tkkeHEdqeaU661-kfqEXnxTVdmlSMVf\"\nLOG_FILE = 'logs/sync.log'\nLOG_LEVEL = 'INFO'",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILE",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "LOG_FILE = 'logs/sync.log'\nLOG_LEVEL = 'INFO'",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_LEVEL",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "LOG_LEVEL = 'INFO'",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "sync_google_drive_to_local",
+        "kind": 2,
+        "importPath": "src.google_drive_utils",
+        "description": "src.google_drive_utils",
+        "peekOfCode": "def sync_google_drive_to_local(drive, folder_id, local_path):\n    print (f\"this is the os path:{local_path}\")\n    print (f\"this is the folder_id:{folder_id}\")\n        # Check if the directory exists and print if it doesn't\n    if not os.path.exists(local_path):\n        print(f\"Folder does not exist. Creating folder: {local_path}\")\n        os.makedirs(local_path)\n    else:\n        print(f\"Folder already exists: {local_path}\")\n    print(f\"Folder ID being used: {folder_id}\")",
+        "detail": "src.google_drive_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_local_to_google_drive",
+        "kind": 2,
+        "importPath": "src.google_drive_utils",
+        "description": "src.google_drive_utils",
+        "peekOfCode": "def sync_local_to_google_drive(drive, local_path, folder_id):\n    for root, _, files in os.walk(local_path):\n        for file in files:\n            file_path = os.path.join(root, file)\n            file_name = os.path.basename(file_path)\n            file_list = drive.ListFile({'q': f\"'{folder_id}' in parents and trashed=false and title='{file_name}'\"}).GetList()\n            if not file_list:\n                print(f\"Uploading {file_name} to Google Drive...\")\n                gfile = drive.CreateFile({'title': file_name, 'parents': [{'id': folder_id}]})\n                gfile.SetContentFile(file_path)",
+        "detail": "src.google_drive_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_folders",
+        "kind": 2,
+        "importPath": "src.local_sync_utils",
+        "description": "src.local_sync_utils",
+        "peekOfCode": "def sync_folders(source_path, target_path):\n    if not os.path.exists(target_path):\n        os.makedirs(target_path)\n    for root, _, files in os.walk(source_path):\n        for file in files:\n            src_file = os.path.join(root, file)\n            rel_path = os.path.relpath(src_file, source_path)\n            dest_file = os.path.join(target_path, rel_path)\n            if not os.path.exists(dest_file):\n                print(f\"Copying {file} from {source_path} to {target_path}...\")",
+        "detail": "src.local_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "kind": 2,
+        "importPath": "src.logging_utils",
+        "description": "src.logging_utils",
+        "peekOfCode": "def setup_logger(log_file, log_level):\n    # Ensure logs/ directory exists\n    log_dir = \"logs\"\n    # Create the logs directory if it doesn't exist\n    if not os.path.exists(log_dir):\n        os.makedirs(log_dir)\n        print(f\"Created directory: {log_dir}\")\n    \"\"\"\n    Setup logger to log into a file within the logs/ directory.\n    The log file will be stored in the logs/ folder.",
+        "detail": "src.logging_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_connected_to_internet",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def is_connected_to_internet():\n    \"\"\"\n    Check if the system is connected to the internet.\n    \"\"\"\n    try:\n        response = requests.get(\"https://www.google.com\", timeout=5)\n        return response.status_code == 200\n    except requests.ConnectionError:\n        return False\ndef sync_phone():",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "sync_phone",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def sync_phone():\n    \"\"\"\n    Sync the phone's 'Download' folder to the local system.\n    If connected via USB, use MTP sync.\n    If USB is not available, sync via Google Drive.\n    \"\"\"\n    local_phone_path = config.FOLDER_PATHS[\"phone\"]\n    # Attempt MTP-based syncing\n    sync_logger.info(\"Checking for MTP device connection......\")\n    if check_mtp_connection():",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def main():\n    print('started executing the main folder..........')\n    sync_logger.info(\"Starting Folder Sync Tool...\")\n    sync_logger.info(f\"Google Drive Folder ID: {config.GOOGLE_DRIVE_FOLDER_ID}\")\n    # Authenticate Google Drive and get the drive instance\n    drive = authenticate_google_drive()  # This will use the credentials stored or reauthenticate if necessary\n    # Sync Google Drive with local devices\n    sync_logger.info(\"Syncing Google Drive to laptop...\")\n    sync_google_drive_to_local(drive, GOOGLE_DRIVE_FOLDER_ID,FOLDER_PATHS[\"laptop\"])\n    sync_local_to_google_drive(drive, FOLDER_PATHS[\"laptop\"], GOOGLE_DRIVE_FOLDER_ID)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "sync_logger",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "sync_logger = setup_logger(\"sync.log\", \"INFO\")\n# Separate logger for mtp_sync.log (MTP-specific logging)\nmtp_logger = setup_logger(\"mtp_sync.log\", \"INFO\")\ndef is_connected_to_internet():\n    \"\"\"\n    Check if the system is connected to the internet.\n    \"\"\"\n    try:\n        response = requests.get(\"https://www.google.com\", timeout=5)\n        return response.status_code == 200",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "mtp_logger",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "mtp_logger = setup_logger(\"mtp_sync.log\", \"INFO\")\ndef is_connected_to_internet():\n    \"\"\"\n    Check if the system is connected to the internet.\n    \"\"\"\n    try:\n        response = requests.get(\"https://www.google.com\", timeout=5)\n        return response.status_code == 200\n    except requests.ConnectionError:\n        return False",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "check_mtp_connection",
+        "kind": 2,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "def check_mtp_connection():\n    \"\"\"\n    Check if an MTP device is connected via USB.\n    \"\"\"\n    try:\n        result = subprocess.run([\"mtp-detect\"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n        if \"Found device\" in result.stdout:\n            mtp_logger.info(\"MTP device detected.\")\n            return True\n        else:",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "list_storage",
+        "kind": 2,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "def list_storage():\n    \"\"\"\n    List storage devices on the connected MTP device.\n    \"\"\"\n    try:\n        result = subprocess.run([\"mtp-files\"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n        if result.returncode == 0:\n            mtp_logger.info(\"Storage devices detected:\\n\" + result.stdout)\n            return result.stdout\n        else:",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_download_folder",
+        "kind": 2,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "def find_download_folder():\n    \"\"\"\n    Locate the 'Download' folder on the connected MTP device.\n    \"\"\"\n    try:\n        result = subprocess.run([\"mtp-folders\"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n        if result.returncode == 0:\n            mtp_logger.info(\"Folder structure detected:\\n\" + result.stdout)\n            # Search for the 'Download' folder in the folder structure\n            for line in result.stdout.split(\"\\n\"):",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "download_files_from_phone",
+        "kind": 2,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "def download_files_from_phone(folder_id, local_path):\n    \"\"\"\n    Download files from the specified folder on the phone to a local directory.\n    \"\"\"\n    try:\n        os.makedirs(local_path, exist_ok=True)\n        result = subprocess.run([\"mtp-getfile\", folder_id, local_path], stderr=subprocess.PIPE, text=True)\n        if result.returncode == 0:\n            mtp_logger.info(f\"Files from folder ID {folder_id} downloaded to {local_path}.\")\n        else:",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sync_phone_to_local",
+        "kind": 2,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "def sync_phone_to_local():\n    \"\"\"\n    Automates the syncing of the phone's 'Download' folder to the local system.\n    Uses the FOLDER_PATHS[\"phone\"] path from the config module.\n    \"\"\"\n    local_path = config.FOLDER_PATHS[\"phone\"]  # Get the phone folder path from config\n    if check_mtp_connection():\n        folder_id = find_download_folder()\n        if folder_id:\n            download_files_from_phone(folder_id, local_path)",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "mtp_logger",
+        "kind": 5,
+        "importPath": "src.mtp_sync_utils",
+        "description": "src.mtp_sync_utils",
+        "peekOfCode": "mtp_logger = setup_logger(\"mtp_sync.log\", \"INFO\")\ndef check_mtp_connection():\n    \"\"\"\n    Check if an MTP device is connected via USB.\n    \"\"\"\n    try:\n        result = subprocess.run([\"mtp-detect\"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n        if \"Found device\" in result.stdout:\n            mtp_logger.info(\"MTP device detected.\")\n            return True",
+        "detail": "src.mtp_sync_utils",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_google_drive",
+        "kind": 2,
+        "importPath": "src.quickstart",
+        "description": "src.quickstart",
+        "peekOfCode": "def authenticate_google_drive():\n    # Check if token already exists (this will prevent re-authentication)\n    gauth = GoogleAuth()\n    gauth.LoadClientConfigFile(\"client_secret.json\")\n    # Attempt to load the saved credentials\n    gauth.LoadCredentialsFile(\"credentials.json\")\n    if gauth.credentials is None:\n        # If no saved credentials, go through the authentication flow\n        print(\"No credentials found. Initiating authentication...\")\n        # automatically visit the URL ",
+        "detail": "src.quickstart",
+        "documentation": {}
+    },
+    {
+        "label": "get_google_drive_folder_id",
+        "kind": 2,
+        "importPath": "src.quickstart",
+        "description": "src.quickstart",
+        "peekOfCode": "def get_google_drive_folder_id(drive, folder_name='testFolder'):\n    # Search for a folder by name\n    file_list = drive.ListFile({'q': f\"title='{folder_name}' and mimeType='application/vnd.google-apps.folder' and trashed=false\"}).GetList()\n    # Get Folder ID\n    if file_list:\n        folder = file_list[0]  # Assuming the folder exists, and this is the first match\n        print(f\"Folder ID: {folder['id']}\")\n        return folder['id']\n    else:\n        print(f\"Folder '{folder_name}' not found.\")",
+        "detail": "src.quickstart",
+        "documentation": {}
+    },
+    {
+        "label": "update_config_with_folder_id",
+        "kind": 2,
+        "importPath": "src.quickstart",
+        "description": "src.quickstart",
+        "peekOfCode": "def update_config_with_folder_id(folder_id):\n    # Update GOOGLE_DRIVE_FOLDER_ID in config.py\n    config.FOLDER_PATHS[\"google_drive\"] = folder_id  # Add new path or modify existing path\n    with open(\"src/config.py\", \"w\") as config_file:\n        # Writing updated config content\n        config_file.write(f\"FOLDER_PATHS = {str(config.FOLDER_PATHS)}\\n\")\n        config_file.write(f'GOOGLE_DRIVE_FOLDER_ID = \"{folder_id}\"\\n')\n        config_file.write(f\"LOG_FILE = '{config.LOG_FILE}'\\n\")\n        config_file.write(f\"LOG_LEVEL = '{config.LOG_LEVEL}'\\n\")\n    print(\"Config file updated with Google Drive folder ID.\")",
+        "detail": "src.quickstart",
+        "documentation": {}
+    },
+    {
+        "label": "test_google_drive_auth",
+        "kind": 2,
+        "importPath": "tests.test_google_drive",
+        "description": "tests.test_google_drive",
+        "peekOfCode": "def test_google_drive_auth():\n    drive = authenticate_google_drive()\n    assert drive is not None",
+        "detail": "tests.test_google_drive",
+        "documentation": {}
+    },
+    {
+        "label": "test_integration",
+        "kind": 2,
+        "importPath": "tests.test_integration",
+        "description": "tests.test_integration",
+        "peekOfCode": "def test_integration():\n    try:\n        main()\n        assert True\n    except Exception as e:\n        assert False, f\"Integration test failed: {e}\"",
+        "detail": "tests.test_integration",
+        "documentation": {}
+    },
+    {
+        "label": "test_sync_folders",
+        "kind": 2,
+        "importPath": "tests.test_local_sync",
+        "description": "tests.test_local_sync",
+        "peekOfCode": "def test_sync_folders():\n    source = \"test_source\"\n    target = \"test_target\"\n    os.makedirs(source, exist_ok=True)\n    with open(os.path.join(source, \"test.txt\"), \"w\") as f:\n        f.write(\"This is a test.\")\n    sync_folders(source, target)\n    assert os.path.exists(os.path.join(target, \"test.txt\"))\n    shutil.rmtree(source)\n    shutil.rmtree(target)",
+        "detail": "tests.test_local_sync",
+        "documentation": {}
+    }
+]

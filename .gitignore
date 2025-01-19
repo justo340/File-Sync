@@ -177,4 +177,4 @@ credentials.json
 /src/config.py
 
 # Logs
-sync.log
+logs/
