@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Credentials and configs
+client_secret.json
+credentials.json
+/src/config.py
+
+# Logs
+sync.log
